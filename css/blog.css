@@ -158,6 +158,15 @@ table > thead {
 }
 
 /*Code Highlight*/
+figure.highlight,
+figure.highlight > pre,
+figure.highlight > pre > code > table,
+td.code {
+  font-size: inherit;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
 .post > p {
   line-height: 1.6;
 }
